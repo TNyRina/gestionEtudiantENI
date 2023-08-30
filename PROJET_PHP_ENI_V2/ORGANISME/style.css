@@ -1,0 +1,162 @@
+/*
+	2B3467
+	BAD7E9
+	FCFFE7
+	EB455F
+*/
+body{
+	background: #FCFFE7;
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	max-height:100vh ;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 0;
+	padding: 20px 0;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(45deg,#2B3467,#BAD7E9);
+	border-bottom: 2px solid white;
+}
+nav{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav a{
+	color:#FCFFE7;
+	text-decoration: none;
+}
+header form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+header input{
+	height: 25px;
+	margin: 0 10px;
+	border: 0;
+	outline: 0;
+	border-radius: 10px;
+	text-align: center;
+}
+header button{
+	width: 40px;
+	height: 40px;
+	background: white;
+	border:0;
+	outline: 0;
+	border-radius: 50%;
+}
+header input:focus{
+	border: 2px solid #2B3467;
+}
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+.filtre{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	padding: 5px;
+	margin: 0 auto;
+}
+.form_filtre{
+	width: 100%;
+}
+h5{
+	margin: 0;
+}
+
+.resultat{
+	text-align: right;
+	padding: 0 150px;
+	margin: 0;
+}
+
+.titre{	
+	background: linear-gradient(45deg,#2B3467,#BAD7E9);
+	color: #FCFFE7;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 5px;
+	align-items: center;
+}
+.cadre_liste{
+	overflow-y: scroll;
+}
+.liste{
+	border-bottom: 2px solid #BAD7E9;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+}
+.liste:hover{
+	background: #BAD7E9;
+}
+span{
+	padding: 5px 10px;
+	display: block;
+	width: 25%;
+	text-align: center;
+}
+
+.btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cadre{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: auto;
+}
+.titre .cadre{
+	width: 40px;
+	height: 40px;
+}
+img{
+	width: 100%;
+}
+
+.cadre_liste button{
+	width: 40px;
+	height: 40px;
+	background: white;
+	border:0;
+	outline: 0;
+	border-radius: 50%;
+}
+header button:hover,.cadre_liste button:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.titre .cadre:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.filtre button{
+	border:0;
+	outline: 0;
+	color: white;
+	background: #2B3467;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
